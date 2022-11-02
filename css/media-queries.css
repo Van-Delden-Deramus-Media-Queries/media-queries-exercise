@@ -129,7 +129,7 @@ h1{
         background-color: white;
         flex-wrap: wrap;
     }
-    img {
+    .header-img {
         width: 100%;
     }
     #main  {
@@ -143,6 +143,7 @@ h1{
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
+        width: 3.5em;
     }
 
 }
