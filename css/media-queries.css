@@ -41,7 +41,7 @@ ul>li {
     padding: .5em .25em;
     background-color: #CCCCCC;
     margin-top: .4em;
-    width: 90vw;
+    width: 95vw;
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -50,7 +50,7 @@ ul>li {
 /*@media screen and (min-width:224px) {*/
 img {
     display: flex;
-    width: 95%;
+    width: 100%;
     align-content: center;
     margin: auto;
 }
@@ -130,8 +130,9 @@ h1{
         background-color: white;
         flex-wrap: wrap;
     }
-    .header-img {
+    .header-img>img {
         width: 100%;
+        margin: 0;
     }
     #main  {
         width: 50%;
