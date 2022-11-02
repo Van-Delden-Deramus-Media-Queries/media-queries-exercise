@@ -130,9 +130,12 @@ h1{
         background-color: white;
         flex-wrap: wrap;
     }
+    .header-img {
+        margin: auto;
+    }
     .header-img>img {
         width: 100%;
-        margin: 0;
+        justify-content: center;
     }
     #main  {
         width: 50%;
